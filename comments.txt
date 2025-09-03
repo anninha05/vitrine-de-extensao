@@ -1,5 +1,7 @@
 Usuário entra → vê vitrine de projetos.
+
 Clica em um projeto → abre detalhes.
+
 Quer participar → botão "Inscreva-se" (vai redirecionar para o formulário que já existe da proex).
 
 #### cards dos projetos
