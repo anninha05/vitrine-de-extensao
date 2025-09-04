@@ -38,4 +38,4 @@ Após análise do site atual da Pró-Reitoria de Extensão ([link oficial](https
 
 1. Clone este repositório:  
    ```bash
-   git clone https://github.com/vitrine-de-extensao.git
+   git clone https://github.com/anninha05/vitrine-de-extensao.git
