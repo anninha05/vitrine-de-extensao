@@ -1,9 +1,7 @@
 # Vitrine de Extensão - UENF
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Hackathon-SCTI%202025-blue" alt="Hackathon SCTI 2025"/>
-  <img src="https://img.shields.io/badge/Código%20da%20Dupla-at6r0-blue" alt="Código da dupla"/>
-</div>
+https://img.shields.io/badge/Hackathon-SCTI%202025-blue" alt="Hackathon SCTI 2025
+https://img.shields.io/badge/Código%20da%20Dupla-at6r0-blue" alt="Código da dupla
 
 ---
 
@@ -15,7 +13,7 @@ Criar uma plataforma interativa onde a comunidade possa facilmente encontrar e p
 ## 👥 Equipe
 - **Davi Ribeiro**  
 - **Anna Julya Padilha**  
-
+- **Código da dupla:** at6r0
 ---
 
 ## 📝 Contexto
@@ -32,11 +30,8 @@ Após análise do site atual da Pró-Reitoria de Extensão ([link oficial](https
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-<div align="center">
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-</div>
+https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 
 ---
 
