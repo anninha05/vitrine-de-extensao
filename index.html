@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pró-Reitoria de Extensão - Vitrine de Extensão</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-left" aria-label="Logotipo e nome do site">
+      <div class="logo" role="img" aria-label="Logotipo da UENF Pró-Reitoria de Extensão">
+        <img src="img\logo.png.png">
+      </div>
+      <span>Pró-Reitoria de Extensão</span>
+    </div>
+
+    <nav aria-label="Menu principal">
+      <a href="#inicio" tabindex="0">INÍCIO</a>
+      <a href="#sobre" tabindex="0">SOBRE</a>
+      <a href="#uenf" tabindex="0">UENF</a>
+      <a href="#proex" tabindex="0">PROEX</a>
+      <a href="#contatos" tabindex="0">CONTATOS</a>
+
+      <div class="social-icons" aria-label="Redes sociais">
+        <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer" tabindex="0">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M22 12a10 10 0 1 0-11.5 9.8v-6.9h-3v-2.8h3v-2c0-3 1.8-4.6 4.5-4.6 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 1-2 2v2h3.4l-.5 2.8h-2.9v6.9A10.002 10.002 0 0 0 22 12"/></svg>
+        </a>
+        <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer" tabindex="0">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zM12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zm5.5-.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Vitrine de <span class="highlight">Extensão</span></h1>
+
+    <form class="search-filters" role="search" aria-label="Formulário de busca e filtros para projetos de extensão">
+      <div class="search-input">
+        <input type="text" placeholder="Em busca de um projeto específico?" aria-label="Campo para buscar projeto específico" />
+      </div>
+      <div class="search-select">
+        <select aria-label="Selecione a área temática">
+          <option value="" selected disabled>Área Temática</option>
+          <option value="Educacao">Educação</option>
+          <option value="Saude">Saúde</option>
+          <option value="Tecnologia">Tecnologia</option>
+          <option value="MeioAmbiente">Meio Ambiente</option>
+        </select>
+      </div>
+      <div class="search-select">
+        <select aria-label="Selecione o centro">
+          <option value="" selected disabled>Centros</option>
+          <option value="Centro1">CCT</option>
+          <option value="Centro2">CBB</option>
+          <option value="Centro3">CCH</option>
+          <option value="Centro4">CCTA</option>
+        </select>
+      </div>
+      <button type="submit" class="search-button" aria-label="Botão buscar">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" fill="none"/>
+          <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        BUSCAR
+      </button>
+    </form>
+
+    <h2 class="subtitle-section"><strong>Todos os <span class="highlight">Projetos de Extensão</span> em um só lugar.</strong></h2>
+
+    <section class="info-cards" aria-label="Passos para usar a vitrine de extensão">
+      <article class="card" tabindex="0" role="region" aria-labelledby="busque-title">
+        <strong id="busque-title">Busque</strong>
+        <p>Encontre os projetos de extensão mais adequados para você.</p>
+      </article>
+
+      <article class="card" tabindex="0" role="region" aria-labelledby="filtre-title">
+        <strong id="filtre-title">Filtre</strong>
+        <p>Separe os projetos de acordo com a área ou centro de estudos.</p>
+      </article>
+
+      <article class="card" tabindex="0" role="region" aria-labelledby="analise-title">
+        <strong id="analise-title">Analise</strong>
+        <p>Verifique o perfil da vaga, resumo do projeto e outras informações úteis.</p>
+      </article>
+
+      <article class="card" tabindex="0" role="region" aria-labelledby="inscreva-title">
+        <strong id="inscreva-title">Inscreva-se</strong>
+        <p>Gostou de algum projeto? Inscreva-se imediatamente!</p>
+      </article>
+    </section>
+
+  </main>
+</body>
+</html>
+

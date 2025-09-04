@@ -1,0 +1,307 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset and base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1d325a16-cdcf-4489-b538-6772199016fb.png'); 
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+/* Overlay for dark blue shade */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(14, 63, 124, 0.85);
+    z-index: -1;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+    user-select: none;
+}
+
+/* Logo + text (left) */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    position: relative;
+    user-select: none;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-left span {
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: #CCE8FC;
+    white-space: nowrap;
+}
+
+/* Navigation and social icons right */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+nav a {
+    color: white;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #42C3F5;
+}
+
+/* Social icons container */
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    color: white;
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #42C3F5;
+}
+/* Social icons svg style */
+.social-icons svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 1.5rem 60px 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+/* Title Highlight */
+main h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: white;
+    line-height: 1.2;
+    max-width: 850px;
+    margin: 0 auto;
+}
+main h1 span.highlight {
+    color: #42C3F5;
+    font-weight: 400;
+}
+
+/* Search filters container */
+.search-filters {
+    background: rgba(0,0,0,0.28);
+    border-radius: 1px;
+    padding: 1rem;
+    display: flex;
+    gap: 15px;
+    max-width: 850px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 6px rgb(0 0 0 / 0.45);
+}
+
+/* Input box style */
+.search-input {
+    flex: 3;
+    min-width: 200px;
+}
+.search-input input[type="text"] {
+    width: 100%;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 3px;
+    outline-offset: 2px;
+    outline-color: #42C3F5;
+}
+
+/* Select boxes */
+.search-select {
+    flex: 2;
+}
+select {
+    width: 100%;
+    border: none;
+    background: white;
+    border-radius: 3px;
+    padding: 12px 14px;
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    outline-offset: 2px;
+    outline-color: #42C3F5;
+    appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, #42C3F5 50%), linear-gradient(135deg, #42C3F5 50%, transparent 50%);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px);
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+}
+
+/* Search button */
+.search-button {
+    flex: 1.3;
+    background: #42C3F5;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+.search-button:hover {
+    background: #34a6da;
+}
+
+/* Search button icon */
+.search-button svg {
+    width: 17px;
+    height: 17px;
+    stroke: white;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+
+/* Section subtitle */
+.subtitle-section {
+    max-width: 720px;
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: white;
+    text-align: center;
+    margin: 40px auto 30px auto;
+}
+.subtitle-section span.highlight {
+    color: #42C3F5;
+}
+
+/* Info cards container */
+.info-cards {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    margin-top: 60px;
+}
+
+/* Individual card */
+.card {
+    background: white;
+    flex: 1 1 220px;
+    max-width: 260px;
+    min-height: 120px;
+    border-radius: 8px;
+    color: #222;
+    box-shadow: 0 8px 18px rgb(0 0 0 / .12);
+    padding: 24px 18px;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    transition: box-shadow 0.3s ease;
+    user-select: none;
+}
+.card:hover {
+    box-shadow: 0 12px 26px rgb(0 0 0 / .18);
+}
+.card strong {
+    font-weight: 700;
+    font-size: 1.15rem;
+    margin-bottom: 8px;
+    color: #000;
+}
+.card p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    color: #555;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    main h1 {
+    font-size: 2.6rem;
+    }
+    .search-filters {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px;
+    }
+    .search-input, .search-select, .search-button {
+    flex: 1 1 100%;
+    max-width: 100%;
+    }
+    nav {
+    display: none; /* simplify mobile header for this demo */
+    }
+    header {
+    justify-content: center;
+    }
+}
