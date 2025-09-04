@@ -4,15 +4,37 @@ Clica em um projeto → abre detalhes.
 
 Quer participar → botão "Inscreva-se" (vai redirecionar para o formulário que já existe da proex).
 
--- cards dos projetos -- 
-id
-titulo do projeto
-tipo (uenf ou universidade aberta)
-carga horária
-coordenador
-perfil 
-centro
-laboratório
-remuneração
 
-fazer modal
+-- versao basica bd-- 
+
+Table Administrador {
+  id_admin int [pk, increment]
+  nome varchar
+  email varchar
+  senha varchar
+}
+
+Table Coordenador {
+  id_coordenador int [pk, increment]
+  nome varchar
+  email varchar
+}
+
+Table Projeto {
+  id_projeto int [pk, increment]
+  titulo varchar
+  tipo_bolsa varchar
+  grau varchar
+  carga_horas int
+  vagas int
+  tipo_perfil varchar
+  publico_alvo varchar
+  valor_unitario decimal
+  valor_total decimal
+  resumo text
+  eixo_tematico varchar
+  centro varchar
+  laboratorio varchar
+  coordenador_id int [ref: > Coordenador.id_coordenador]
+  administrador_id int [ref: > Administrador.id_admin]
+}
