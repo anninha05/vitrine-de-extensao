@@ -1,8 +1,5 @@
 # Vitrine de Extensão - UENF
 
-https://img.shields.io/badge/Hackathon-SCTI%202025-blue
-https://img.shields.io/badge/Código%20da%20Dupla-at6r0-blue
-
 ---
 
 ## 🎯 Objetivo
