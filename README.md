@@ -1,7 +1,5 @@
 # Vitrine de Extensão - UENF
 
----
-
 ## 🎯 Objetivo
 Criar uma plataforma interativa onde a comunidade possa facilmente encontrar e participar de projetos de extensão da **UENF**.
 
