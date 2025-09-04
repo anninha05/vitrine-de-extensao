@@ -4,11 +4,15 @@ Clica em um projeto → abre detalhes.
 
 Quer participar → botão "Inscreva-se" (vai redirecionar para o formulário que já existe da proex).
 
-#### cards dos projetos
+-- cards dos projetos -- 
 id
 titulo do projeto
 tipo (uenf ou universidade aberta)
 carga horária
 coordenador
+perfil 
+centro
+laboratório
+remuneração
 
-
+fazer modal
