@@ -39,3 +39,8 @@ Após análise do site atual da Pró-Reitoria de Extensão ([link oficial](https
 1. Clone este repositório:  
    ```bash
    git clone https://github.com/anninha05/vitrine-de-extensao.git
+2. Acesse a pasta do projeto:
+   ```bash
+   cd vitrine-de-extensao-main
+3. Abra o arquivo index.html no seu navegador.
+   
