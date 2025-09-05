@@ -38,18 +38,19 @@ Após análise do site atual da Pró-Reitoria de Extensão ([link oficial](https
 ---
 📂 Estrutura do Projeto
 
-   vitrine-de-extensao/
-   ├── backend/
-   │   ├── db.js
-   │   ├── seed.js
-   │   └── server.js
-   ├── css/
-   │   └── style.css
-   ├── js/
-   │   └── main.js
-   ├── img/
-   ├── index.html
-   └── README.md
+   vitrine-de-extensao
+   /  
+   ├── backend/  
+   │   ├── db.js  
+   │   ├── seed.js  
+   │   └── server.js  
+   ├── css/  
+   │   └── style.css  
+   ├── js/  
+   │   └── main.js  
+   ├── img/  
+   ├── index.html  
+   └── README.md  
 
 ---
 ## ⚙ Instruções de Execução
