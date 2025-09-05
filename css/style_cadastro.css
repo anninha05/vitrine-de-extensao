@@ -1,0 +1,269 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1d325a16-cdcf-4489-b538-6772199016fb.png'); 
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(14, 63, 124, 0.85);
+    z-index: -1;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+    user-select: none;
+}
+
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    position: relative;
+    user-select: none;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-left span {
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: #CCE8FC;
+    white-space: nowrap;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+nav a {
+    color: white;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #42C3F5;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    color: white;
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #42C3F5;
+}
+
+.social-icons svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: white;
+    line-height: 1.2;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 span.highlight {
+    color: #42C3F5;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+
+.breadcrumb {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.form-section {
+    background-color: #174a7c; /* azul da seção do cabeçalho */
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 0.2);
+    color: #fff;
+}
+
+.form-header {
+    padding: 1.5rem 2rem;
+    background-color: #1b5ea7;
+    border-bottom: 1px solid #1a598f;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-header h1 {
+    margin: 0 0 0.25rem 0;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.form-header p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+/* Form */
+form {
+    background-color: #fff;
+    color: #333;
+    padding: 1.5rem 2rem 2rem 2rem;
+}
+
+.row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.two-columns > * {
+    flex: 1 1 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.three-columns > * {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.full-width > * {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 0.85rem;
+    margin-bottom: 0.35rem;
+    color: #222;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    font-family: inherit;
+    transition: border 0.2s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #174a7c;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    margin-top: 1.4rem;
+}
+
+.btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #174a7c;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0f3452;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.btn-light:hover {
+    background-color: #f2f2f2;
+}
