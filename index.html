@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Pró-Reitoria de Extensão - Vitrine de Extensão</title>
-   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header>
     <div class="header-left" aria-label="Logotipo e nome do site">
@@ -18,16 +20,24 @@
     <nav aria-label="Menu principal">
       <a href="#inicio" tabindex="0">INÍCIO</a>
       <a href="#sobre" tabindex="0">SOBRE</a>
-      <a href="#uenf" tabindex="0">UENF</a>
-      <a href="#proex" tabindex="0">PROEX</a>
+      <a href="https://uenf.br/portal/" target="_blank">UENF</a>
       <a href="#contatos" tabindex="0">CONTATOS</a>
 
       <div class="social-icons" aria-label="Redes sociais">
         <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer" tabindex="0">
-          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M22 12a10 10 0 1 0-11.5 9.8v-6.9h-3v-2.8h3v-2c0-3 1.8-4.6 4.5-4.6 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 1-2 2v2h3.4l-.5 2.8h-2.9v6.9A10.002 10.002 0 0 0 22 12"/></svg>
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <title>Facebook</title>
+            <path
+              d="M22 12a10 10 0 1 0-11.5 9.8v-6.9h-3v-2.8h3v-2c0-3 1.8-4.6 4.5-4.6 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 1-2 2v2h3.4l-.5 2.8h-2.9v6.9A10.002 10.002 0 0 0 22 12" />
+          </svg>
         </a>
-        <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer" tabindex="0">
-          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zM12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zm5.5-.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+        <a href="https://www.instagram.com/proexuenf/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"
+          tabindex="0">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <title>Instagram</title>
+            <path
+              d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zM12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zm5.5-.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+          </svg>
         </a>
       </div>
     </nav>
@@ -38,7 +48,8 @@
 
     <form class="search-filters" role="search" aria-label="Formulário de busca e filtros para projetos de extensão">
       <div class="search-input">
-        <input type="text" placeholder="Em busca de um projeto específico?" aria-label="Campo para buscar projeto específico" />
+        <input type="text" placeholder="Em busca de um projeto específico?"
+          aria-label="Campo para buscar projeto específico" />
       </div>
       <div class="search-select">
         <select aria-label="Selecione a área temática">
@@ -60,14 +71,15 @@
       </div>
       <button type="submit" class="search-button" aria-label="Botão buscar">
         <svg viewBox="0 0 24 24" aria-hidden="true">
-          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" fill="none"/>
-          <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" fill="none" />
+          <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
         </svg>
         BUSCAR
       </button>
     </form>
 
-    <h2 class="subtitle-section"><strong>Todos os <span class="highlight">Projetos de Extensão</span> em um só lugar.</strong></h2>
+    <h2 class="subtitle-section"><strong>Todos os <span class="highlight">Projetos de Extensão</span> em um só
+        lugar.</strong></h2>
 
     <section class="info-cards" aria-label="Passos para usar a vitrine de extensão">
       <article class="card" tabindex="0" role="region" aria-labelledby="busque-title">
@@ -91,7 +103,67 @@
       </article>
     </section>
 
+    <section class="projetos-destaque" aria-label="Projetos em Destaque">
+      <h2 class="pd-title">Projetos em Destaque</h2>
+      <p class="pd-subtitle">Projetos mais acessados recentemente</p>
+
+      <div class="projetos-grid">
+        <!-- CARD 1 -->
+        <article class="projeto-card">
+          <div class="col-left">
+            <img src="img/logo-cct.png" alt="Logo CCT" class="projeto-logo">
+            <a href="projeto.html?id=1" class="btn-saiba-mais">SAIBA MAIS</a>
+          </div>
+
+          <div class="col-main">
+            <h3 class="projeto-titulo">
+              Ciência, Clima e Ambiente: compartilhando saberes e boas práticas
+            </h3>
+
+            <p class="projeto-coord">
+              Coord. <span class="coord-nome">ELIANE BARBOSA SANTOS</span>
+            </p>
+
+            <p class="projeto-resumo">
+              A presente proposta tem como justificativa evidenciar um resultado, que foi percebida desde
+              anteriores projetos com a coleta seletiva executada no Campus da UENF...
+            </p>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="projeto-card">
+          <div class="col-left">
+            <img src="img/logo-cct.png" alt="Logo CCT" class="projeto-logo">
+            <a href="projeto.html?id=2" class="btn-saiba-mais">SAIBA MAIS</a>
+          </div>
+
+          <div class="col-main">
+            <h3 class="projeto-titulo">
+              Rede de Economia Solidária do Norte Fluminense
+            </h3>
+
+            <p class="projeto-coord">
+              Coord. <span class="coord-nome">Gustavo de Castro Xavier</span>
+            </p>
+
+            <p class="projeto-resumo">
+              O projeto está ligado ao Programa de Extensão Incubadora Tecnológica de Empreendimentos
+              Populares ITEP/UENF, conforme Resolução CONSUNI 001/2009...
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <!-- pager (os 3 pontinhos) -->
+      <div class="pd-dots" aria-hidden="true">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+
   </main>
 </body>
-</html>
 
+</html>
