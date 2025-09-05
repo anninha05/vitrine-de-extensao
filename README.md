@@ -78,7 +78,7 @@ Após análise do site atual da Pró-Reitoria de Extensão ([link oficial](https
    node server.js
 
 5. Acesse a rota /projetos para visualizar os dados em JSON:
-   http://localhost:3000/projetos
-   http://localhost:3000/projetos/1
-   http://localhost:3000/projetos/2
+   http://localhost:3000/projetos  
+   http://localhost:3000/projetos/1  
+   http://localhost:3000/projetos/2  
    
