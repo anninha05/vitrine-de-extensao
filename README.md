@@ -57,27 +57,33 @@ Após análise do site atual da Pró-Reitoria de Extensão ([link oficial](https
 
 🔹 Front
 
-1. Clone este repositório:  
+1. Clone este repositório:
+    ``` bash
    git clone https://github.com/anninha05/vitrine-de-extensao.git
-2. Acesse a pasta do projeto:
+3. Acesse a pasta do projeto:
+   ``` bash
    cd vitrine-de-extensao-main
-3. Abra o arquivo index.html no seu navegador.
+5. Abra o arquivo index.html no seu navegador.
 
 🔹 Backend
 
 1. Acesse a pasta do backend:
+   ``` bash
    cd backend
 
-2. Instale as dependências:
+3. Instale as dependências:
+   ``` bash
    npm install
 
-3. Execute o seed para criar o banco e inserir os projetos reais:
-   ode seed.js
+5. Execute o seed para criar o banco e inserir os projetos reais:
+   ``` bash
+   node seed.js
 
-4. Inicie o servidor:
+7. Inicie o servidor:
+   ``` bash
    node server.js
 
-5. Acesse a rota /projetos para visualizar os dados em JSON:
+9. Acesse a rota /projetos para visualizar os dados em JSON:
    http://localhost:3000/projetos  
    http://localhost:3000/projetos/1  
    http://localhost:3000/projetos/2  
