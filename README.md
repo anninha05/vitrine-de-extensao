@@ -26,6 +26,11 @@ Após análise do site atual da Pró-Reitoria de Extensão ([link oficial](https
 
 ---
 
+## 📄 Documentação
+- Acesse o protótipo do projeto: [Protótipo](https://github.com/user-attachments/files/22259603/rascunho.pdf)
+- Acesse a documentação: [Wiki do repositório](https://github.com/anninha05/vitrine-de-extensao/wiki) 
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
